@@ -1,0 +1,5 @@
+e2cnn
+mmcv
+mmdet>= 2.25.1,<3.0.0
+torch
+torchvision

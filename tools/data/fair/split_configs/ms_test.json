@@ -1,0 +1,26 @@
+{
+  "nproc": 10,
+  "img_ann_dirs": "/opt/data/private/LYX/data/FAIR1M_1.0/test/",
+  "sizes": [
+    1024
+  ],
+  "gaps": [
+    500
+  ],
+  "rates": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "img_rate_thr": 0.6,
+  "iof_thr": 0.7,
+  "no_padding": false,
+  "padding_value": [
+    104,
+    116,
+    124
+  ],
+  "converted_dota_dir":"/opt/data/private/LYX/data/fair1_0_to_DOTA/test/",
+  "save_dir": "/opt/data/private/LYX/data/fair1_0_to_DOTA_split/test/",
+  "save_ext": ".png"
+}

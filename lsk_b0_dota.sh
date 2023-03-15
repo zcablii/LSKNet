@@ -1,0 +1,2 @@
+./tools/dist_train.sh configs/lsknet/lskb0_dota.py 8
+# ./tools/dist_test.sh configs/oriented_rcnn/lskb0_dota_coco_pretrain.py work_dirs/lskb0_dota_coco_pretrain/epoch_12.pth 8 --format-only --eval-options submission_dir=work_dirs/results/lskb0_dota_coco_pretrain_0225 nproc=1
