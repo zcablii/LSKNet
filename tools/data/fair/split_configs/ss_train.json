@@ -18,7 +18,7 @@
     116,
     124
   ],
-  "converted_dota_dir":"/opt/data/private/LYX/data/fair1_0_to_DOTA_ss/train/",
-  "save_dir": "/opt/data/private/LYX/data/fair1_0_to_DOTA_ss_split/train/",
+  "converted_dota_dir":"data/fair1m_ss/train/",
+  "save_dir": "data/fair1m_ss/train/",
   "save_ext": ".png"
 }

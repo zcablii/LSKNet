@@ -1,10 +1,10 @@
 _base_ = [
-    '../_base_/datasets/dotav1.py', '../_base_/schedules/schedule_1x.py',
+    '../_base_/datasets/hrsc.py', '../_base_/schedules/schedule_3x.py',
     '../_base_/default_runtime.py'
 ]
 
 angle_version = 'le90'
-gpu_number = 8
+gpu_number = 4
 # fp16 = dict(loss_scale='dynamic')
 model = dict(
     type='OrientedRCNN',
@@ -14,7 +14,7 @@ model = dict(
         drop_rate=0.1,
         drop_path_rate=0.1,
         depths=[2,2,4,2],
-        init_cfg=dict(type='Pretrained', checkpoint="/opt/data/private/LYX/data/pretrained/lsk9_b1.pth.tar"),
+        init_cfg=dict(type='Pretrained', checkpoint="/data/pretrained/lsk_s_backbone.pth.tar"),
         norm_cfg=dict(type='SyncBN', requires_grad=True)),
     neck=dict(
         type='FPN',
@@ -56,7 +56,7 @@ model = dict(
             in_channels=256,
             fc_out_channels=1024,
             roi_feat_size=7,
-            num_classes=15,
+            num_classes=1,
             bbox_coder=dict(
                 type='DeltaXYWHAOBBoxCoder',
                 angle_range=angle_version,
@@ -77,7 +77,7 @@ model = dict(
                 neg_iou_thr=0.3,
                 min_pos_iou=0.3,
                 match_low_quality=True,
-                gpu_assign_thr=800,
+                # gpu_assign_thr=800,
                 ignore_iof_thr=-1),
             sampler=dict(
                 type='RandomSampler',
@@ -101,7 +101,7 @@ model = dict(
                 min_pos_iou=0.5,
                 match_low_quality=False,
                 iou_calculator=dict(type='RBboxOverlaps2D'),
-                gpu_assign_thr=800,
+                # gpu_assign_thr=800,
                 ignore_iof_thr=-1),
             sampler=dict(
                 type='RRandomSampler',
@@ -129,7 +129,7 @@ img_norm_cfg = dict(
 train_pipeline = [
     dict(type='LoadImageFromFile'),
     dict(type='LoadAnnotations', with_bbox=True),
-    dict(type='RResize', img_scale=(1024, 1024)),
+    dict(type='RResize', img_scale=(800, 800)),
     dict(
         type='RRandomFlip',
         flip_ratio=[0.25, 0.25, 0.25],
@@ -140,7 +140,6 @@ train_pipeline = [
         rotate_ratio=0.5,
         angles_range=180,
         auto_bound=False,
-        rect_classes=[9, 11],
         version=angle_version),
     dict(type='Normalize', **img_norm_cfg),
     dict(type='Pad', size_divisor=32),
@@ -148,8 +147,9 @@ train_pipeline = [
     dict(type='Collect', keys=['img', 'gt_bboxes', 'gt_labels'])
 ]
 
+
 data = dict(
-    samples_per_gpu=1,
+    samples_per_gpu=2,
     workers_per_gpu=2,
     train=dict(pipeline=train_pipeline, version=angle_version),
     val=dict(version=angle_version),
@@ -158,6 +158,8 @@ data = dict(
 optimizer = dict(
     _delete_=True,
     type='AdamW',
-    lr=0.0002, #/8*gpu_number,
+    lr=0.0004, 
     betas=(0.9, 0.999),
     weight_decay=0.05)
+
+evaluation = dict(interval=3, metric='mAP')
