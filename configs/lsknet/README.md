@@ -1,6 +1,6 @@
 # Oriented R-CNN
 
-> [Large Selective Kernel Network for Remote Sensing Object Detection](https://arxiv.org/pdf/0000000.pdf)
+> [Large Selective Kernel Network for Remote Sensing Object Detection](https://arxiv.org/pdf/2303.09030.pdf)
 
 <!-- [ALGORITHM] -->
 
@@ -43,7 +43,7 @@ HRSC2016
 ```bibtex
 @article{li2023large,
   title   = {Large Selective Kernel Network for Remote Sensing Object Detection},
-  author  = {Li, Yuxuan and Hou, Qibin and Zheng, Zhaohui and Cheng, Minging and Yang, Jian and Li, Xiang},
+  author  = {Li, Yuxuan and Hou, Qibin and Zheng, Zhaohui and Cheng, Mingming and Yang, Jian and Li, Xiang},
   journal={ArXiv},
   year={2023}
 }

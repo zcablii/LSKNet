@@ -1,7 +1,7 @@
 
 ![lsk_arch](docs/lsk.png)
 
-## This repository is the official implementation of "Large Selective Kernel Network for Remote Sensing Object Detection" at: https://arxiv.org/pdf/0000000.pdf
+## This repository is the official implementation of "Large Selective Kernel Network for Remote Sensing Object Detection" at: [https://arxiv.org/pdf/2303.09030.pdf](https://arxiv.org/pdf/2303.09030.pdf)
 
 
 ## Abstract
@@ -11,7 +11,7 @@ Recent research on remote sensing object detection has largely focused on improv
 
 ## Introduction
 
-This repository is the official implementation of "Large Selective Kernel Network for Remote Sensing Object Detection" at: https://arxiv.org/pdf/0000000.pdf
+This repository is the official implementation of "Large Selective Kernel Network for Remote Sensing Object Detection" at: [https://arxiv.org/pdf/2303.09030.pdf](https://arxiv.org/pdf/2303.09030.pdf)
 
 The master branch is built on MMRotate which works with **PyTorch 1.6+**.
 
@@ -20,9 +20,9 @@ LSKNet backbone code is placed under mmrotate/models/backbones/, and the train/t
 
 ## Results and models
 
-Imagenet 300-epoch pre-trained LSKNet-T backbone: https://pan.baidu.com/s/1CQHQBLR9UVW-7cxg7LB2Dg?pwd=84jd 
+Imagenet 300-epoch pre-trained LSKNet-T backbone: [Download](https://pan.baidu.com/s/1CQHQBLR9UVW-7cxg7LB2Dg?pwd=84jd) 
 
-Imagenet 300-epoch pre-trained LSKNet-S backbone: https://pan.baidu.com/s/1o-Pq8k_7qcTgfTWiBve6uA?pwd=dm3w
+Imagenet 300-epoch pre-trained LSKNet-S backbone: [Download](https://pan.baidu.com/s/1o-Pq8k_7qcTgfTWiBve6uA?pwd=dm3w) 
 
 DOTA1.0
 
