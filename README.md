@@ -2,13 +2,14 @@
 ![lsk_arch](docs/lsk.png)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/large-selective-kernel-network-for-remote/object-detection-in-aerial-images-on-dota-1)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-dota-1?p=large-selective-kernel-network-for-remote)
-## This repository is the official implementation of "Large Selective Kernel Network for Remote Sensing Object Detection" at: [https://arxiv.org/pdf/2303.09030.pdf](https://arxiv.org/pdf/2303.09030.pdf)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/large-selective-kernel-network-for-remote/object-detection-in-aerial-images-on-hrsc2016)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-hrsc2016?p=large-selective-kernel-network-for-remote)
 
+## This repository is the official implementation of "Large Selective Kernel Network for Remote Sensing Object Detection" at: [https://arxiv.org/pdf/2303.09030.pdf](https://arxiv.org/pdf/2303.09030.pdf)
 
 ## Abstract
 
 
-Recent research on remote sensing object detection has largely focused on improving the representation of oriented bounding boxes but has overlooked the unique prior knowledge presented in remote sensing scenarios. Such prior knowledge can be useful because tiny remote sensing objects may be mistakenly detected without referencing a sufficiently long-range context, and the long-range context required by different types of objects can vary. In this paper, we take these priors into account and propose the Large Selective Kernel Network (LSKNet). LSKNet can dynamically adjust its large spatial receptive field to better model the ranging context of various objects in remote sensing scenarios. To the best of our knowledge, this is the first time that large and selective kernel mechanisms have been explored in the field of remote sensing object detection. Without bells and whistles, LSKNet sets new state-of-the-art scores on standard benchmarks, i.e., HRSC2016 (98.46% mAP), DOTA-v1.0 (81.64% mAP) and FAIR1M-v1.0 (47.87% mAP). Based on a similar technique, we rank 2nd place in 2022 the Greater Bay Area International Algorithm Competition
+Recent research on remote sensing object detection has largely focused on improving the representation of oriented bounding boxes but has overlooked the unique prior knowledge presented in remote sensing scenarios. Such prior knowledge can be useful because tiny remote sensing objects may be mistakenly detected without referencing a sufficiently long-range context, and the long-range context required by different types of objects can vary. In this paper, we take these priors into account and propose the Large Selective Kernel Network (LSKNet). LSKNet can dynamically adjust its large spatial receptive field to better model the ranging context of various objects in remote sensing scenarios. To the best of our knowledge, this is the first time that large and selective kernel mechanisms have been explored in the field of remote sensing object detection. Without bells and whistles, LSKNet sets new state-of-the-art scores on standard benchmarks, i.e., HRSC2016 (98.46% mAP), DOTA-v1.0 (81.85% mAP) and FAIR1M-v1.0 (47.87% mAP). Based on a similar technique, we rank 2nd place in 2022 the Greater Bay Area International Algorithm Competition
 
 ## Introduction
 
@@ -32,7 +33,7 @@ DOTA1.0
 | [RTMDet-l](https://arxiv.org/abs/2212.07784) (1024,1024,-) | 81.33 | -  |   3x-ema |   8    | - | - |Prev. Best |
 | LSKNet_T (1024,1024,200) | 81.37 | le90  |   1x    |   2*8    | [lsk_t_fpn_1x_dota_le90](./configs/lsknet/lsk_t_fpn_1x_dota_le90.py) | [model](https://pan.baidu.com/s/1LtHb7ahPAcGJGPGfNo9EuQ?pwd=auu6) \| [log](https://pan.baidu.com/s/1PpC-Qu0dcDQ-iYM0kz5i5g?pwd=0sre) | |
 | LSKNet_S (1024,1024,200) | 81.64 | le90  |   1x    |    1*8     |            [lsk_s_fpn_1x_dota_le90](./configs/lsknet/lsk_s_fpn_1x_dota_le90.py.py)             |         [model](https://pan.baidu.com/s/1dYfSldDDWWlqRfljLlYhvA?pwd=v55f) \| [log](https://pan.baidu.com/s/1r6n5SZjEQvo5F1W2-ngkYQ?pwd=chxz)         |   |
-
+| LSKNet_S* (1024,1024,200) | 81.85 | le90  |   1x   |    1*8     |            [lsk_s_ema_fpn_1x_dota_le90](./configs/lsknet/lsk_s_ema_fpn_1x_dota_le90.py)             |         [model](https://pan.baidu.com/s/1lNjApvSjchrkRVURAm6PoA?pwd=ubd5) \| [log](https://pan.baidu.com/s/14qjg9EJo6Sq1eyJRhoJ1CQ?pwd=dhp7)         | EMA Finetune  |
 <!-- https://github.com/open-mmlab/mmdetection/tree/3.x/configs/rtmdet -->
 FAIR1M-1.0
 
