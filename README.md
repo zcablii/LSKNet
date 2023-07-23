@@ -102,4 +102,3 @@ If you use this toolbox or benchmark in your research, please cite this project.
 
 ## License
 The code is released under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License for Noncommercial](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) use only. Any commercial use should get formal permission first.
-This project is released under the [Apache 2.0 license](LICENSE).
