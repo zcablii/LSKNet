@@ -101,4 +101,5 @@ If you use this toolbox or benchmark in your research, please cite this project.
 ```
 
 ## License
-The code is released under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License for Noncommercial](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) use only. Any commercial use should get formal permission first.
+Licensed under a [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) for Non-commercial use only.
+Any commercial use should get formal permission first.
