@@ -22,9 +22,9 @@ LSKNet backbone code is placed under mmrotate/models/backbones/, and the train/t
 
 ## Results and models
 
-Imagenet 300-epoch pre-trained LSKNet-T backbone: [Download](https://download.openmmlab.com/mmrotate/v1.0/lsknet/backbones/lsk_t_backbone-2ef8a593.pth)
+Imagenet 300-epoch pre-trained LSKNet-T backbone: [Download](https://liveuclac-my.sharepoint.com/:u:/g/personal/zcablii_ucl_ac_uk/EQ_R312q8ihJg1CSwhm80kgBNrxi1CRyLN8vXjF_lAszcA?e=fftQcx)
 
-Imagenet 300-epoch pre-trained LSKNet-S backbone: [Download](https://download.openmmlab.com/mmrotate/v1.0/lsknet/backbones/lsk_s_backbone-e9d2e551.pth)
+Imagenet 300-epoch pre-trained LSKNet-S backbone: [Download](https://liveuclac-my.sharepoint.com/:u:/g/personal/zcablii_ucl_ac_uk/EYQMJzI0z0JEtCc-ebVWHbgBftwi0IltLMrbEoQT0qiSzw?e=hm1xKs)
 
 DOTA1.0
 
