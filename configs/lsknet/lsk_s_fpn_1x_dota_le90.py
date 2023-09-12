@@ -158,6 +158,6 @@ data = dict(
 optimizer = dict(
     _delete_=True,
     type='AdamW',
-    lr=0.0002, #/8*gpu_number,
+    lr=0.0001, #/8*gpu_number,
     betas=(0.9, 0.999),
     weight_decay=0.05)
