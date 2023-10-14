@@ -92,11 +92,13 @@ MMRotate is an open source project that is contributed by researchers and engine
 If you use this toolbox or benchmark in your research, please cite this project.
 
 ```bibtex
-@article{li2023large,
-  title   = {Large Selective Kernel Network for Remote Sensing Object Detection},
-  author  = {Li, Yuxuan and Hou, Qibin and Zheng, Zhaohui and Cheng, Mingming and Yang, Jian and Li, Xiang},
-  journal={ArXiv},
-  year={2023}
+@InProceedings{Li_2023_ICCV,
+    author    = {Li, Yuxuan and Hou, Qibin and Zheng, Zhaohui and Cheng, Ming-Ming and Yang, Jian and Li, Xiang},
+    title     = {Large Selective Kernel Network for Remote Sensing Object Detection},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {16794-16805}
 }
 ```
 
