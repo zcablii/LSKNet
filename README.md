@@ -89,7 +89,11 @@ We provide [colab tutorial](demo/MMRotate_Tutorial.ipynb), and other tutorials f
 # LSKNet for Remote Sensing Segmentation
 
 We further extend our work to segmentation tasks on the Potsdam, Vaihingen, LoveDA, and UAVid datasets. Please visit [LSKNet + GeoSeg](https://github.com/zcablii/GeoSeg).
-
+To facilitate easy reproduction and swift initiation for beginners, we offer our prepared remote sensing segmentation datasets here.
+[Vaihingen](https://pan.baidu.com/s/1SjOaZ55rUlghoggBcV1GCA?pwd=rssg)
+[Potsdam](https://pan.baidu.com/s/1yihagJKRDs_9i2qrI2Lh4Q?pwd=rssg)
+[LoveDA](https://pan.baidu.com/s/1OkeOrVQ1kvoxF7zYCdKz1Q?pwd=rssg)
+[uavid](https://pan.baidu.com/s/1FEvaU41Ay6D5Js7QwD4CGQ?pwd=rssg)
 
 ## Acknowledgement
 
