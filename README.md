@@ -8,8 +8,13 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/large-selective-kernel-network-for-remote/semantic-segmentation-on-isprs-vaihingen)](https://paperswithcode.com/sota/semantic-segmentation-on-isprs-vaihingen?p=large-selective-kernel-network-for-remote)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/large-selective-kernel-network-for-remote/semantic-segmentation-on-isprs-potsdam)](https://paperswithcode.com/sota/semantic-segmentation-on-isprs-potsdam?p=large-selective-kernel-network-for-remote)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/large-selective-kernel-network-for-remote/semantic-segmentation-on-loveda)](https://paperswithcode.com/sota/semantic-segmentation-on-loveda?p=large-selective-kernel-network-for-remote)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/change-detection-on-s2looking)](https://paperswithcode.com/sota/change-detection-on-s2looking?p=lsknet-a-foundation-lightweight-backbone-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/change-detection-on-levir-cd)](https://paperswithcode.com/sota/change-detection-on-levir-cd?p=lsknet-a-foundation-lightweight-backbone-for)
 
-## This repository is the official implementation of ICCV 2023 "Large Selective Kernel Network for Remote Sensing Object Detection" at: [ICCV Open Access](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Large_Selective_Kernel_Network_for_Remote_Sensing_Object_Detection_ICCV_2023_paper.pdf)
+
+## This repository is the official implementation of IJCV (accepted in 2024) "LSKNet: A Foundation Lightweight Backbone for Remote Sensing" at: [arxiv](https://arxiv.org/abs/2403.11735)
+
+## Our conference version: ICCV 2023 "Large Selective Kernel Network for Remote Sensing Object Detection" at: [ICCV Open Access](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Large_Selective_Kernel_Network_for_Remote_Sensing_Object_Detection_ICCV_2023_paper.pdf)
 
 ## Abstract
 
@@ -18,7 +23,7 @@ Recent research on remote sensing object detection has largely focused on improv
 
 ## Introduction
 
-This repository is the official implementation of ICCV 2023 "Large Selective Kernel Network for Remote Sensing Object Detection" at: [ICCV Open Access](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Large_Selective_Kernel_Network_for_Remote_Sensing_Object_Detection_ICCV_2023_paper.pdf)
+This repository is the official implementation of IJCV 2024 "LSKNet: A Foundation Lightweight Backbone for Remote Sensing" at: [arxiv](https://arxiv.org/abs/2403.11735)
 
 The master branch is built on MMRotate which works with **PyTorch 1.6+**.
 
