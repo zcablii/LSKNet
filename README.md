@@ -12,7 +12,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/change-detection-on-levir-cd)](https://paperswithcode.com/sota/change-detection-on-levir-cd?p=lsknet-a-foundation-lightweight-backbone-for)
 
 
-## This repository is the official implementation of IJCV (accepted in 2024) "LSKNet: A Foundation Lightweight Backbone for Remote Sensing" at: [arxiv](https://arxiv.org/abs/2403.11735)
+## This repository is the official implementation of IJCV (accepted in 2024) "LSKNet: A Foundation Lightweight Backbone for Remote Sensing" at: [IJCV](https://link.springer.com/article/10.1007/s11263-024-02247-9?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20241007&utm_content=10.1007/s11263-024-02247-9) or [arxiv](https://arxiv.org/abs/2403.11735)
 
 ## Our conference version: ICCV 2023 "Large Selective Kernel Network for Remote Sensing Object Detection" at: [ICCV Open Access](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Large_Selective_Kernel_Network_for_Remote_Sensing_Object_Detection_ICCV_2023_paper.pdf)
 
@@ -113,6 +113,15 @@ MMRotate is an open source project that is contributed by researchers and engine
 If you use this toolbox or benchmark in your research, please cite this project.
 
 ```bibtex
+@article{Li_2023_IJCV,
+  title={LSKNet: A Foundation Lightweight Backbone for Remote Sensing},
+  author={Li, Yuxuan and Li, Xiang and Dai, Yimain and Hou, Qibin and Liu, Li and Liu, Yongxiang and Cheng, Ming-Ming and Yang, Jian},
+  journal={International Journal of Computer Vision},
+  year={2024},
+  doi = {https://doi.org/10.1007/s11263-024-02247-9},
+  publisher={Springer}
+}
+
 @InProceedings{Li_2023_ICCV,
     author    = {Li, Yuxuan and Hou, Qibin and Zheng, Zhaohui and Cheng, Ming-Ming and Yang, Jian and Li, Xiang},
     title     = {Large Selective Kernel Network for Remote Sensing Object Detection},
