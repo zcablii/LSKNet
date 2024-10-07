@@ -113,7 +113,7 @@ MMRotate is an open source project that is contributed by researchers and engine
 If you use this toolbox or benchmark in your research, please cite this project.
 
 ```bibtex
-@article{Li_2023_IJCV,
+@article{Li_2024_IJCV,
   title={LSKNet: A Foundation Lightweight Backbone for Remote Sensing},
   author={Li, Yuxuan and Li, Xiang and Dai, Yimain and Hou, Qibin and Liu, Li and Liu, Yongxiang and Cheng, Ming-Ming and Yang, Jian},
   journal={International Journal of Computer Vision},
