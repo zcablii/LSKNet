@@ -138,6 +138,9 @@ If you use this toolbox or benchmark in your research, please cite this project.
 }
 ```
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=zcablii/LSKNet&type=Date)](https://star-history.com/#zcablii/LSKNet&Date)
 ## License
 Licensed under a [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) for Non-commercial use only.
 Any commercial use should get formal permission first.
