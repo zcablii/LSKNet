@@ -20,6 +20,9 @@
 ## Update[8/1/2025] Supports [Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection](https://arxiv.org/abs/2501.03775).  Official code is available at [YXB-NKU/Strip-R-CNN](https://github.com/YXB-NKU/Strip-R-CNN)
 We have added the config for our latest work, Strip-R-CNN [arxiv](https://arxiv.org/abs/2501.03775). In this paper ,we have reached 82.75% mAP on DOTA1.0 dataset, setting a new state-of-the-art record.
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/strip-r-cnn-large-strip-convolution-for/object-detection-in-aerial-images-on-dota-1)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-dota-1?p=strip-r-cnn-large-strip-convolution-for)
+![image](https://github.com/user-attachments/assets/0afd4bbe-c538-4e28-9158-a2ed79379f41)
+
 ##
 
 ## This repository is the official implementation of IJCV (accepted in 2024) "LSKNet: A Foundation Lightweight Backbone for Remote Sensing" at: [IJCV](https://link.springer.com/article/10.1007/s11263-024-02247-9?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20241007&utm_content=10.1007/s11263-024-02247-9) or [arxiv](https://arxiv.org/abs/2403.11735)
