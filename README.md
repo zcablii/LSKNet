@@ -17,8 +17,8 @@
 ## Jittor implementation at [github.com/NK-JittorCV/nk-remote](https://github.com/NK-JittorCV/nk-remote) ##
 ---
 
-## Update[8/1/2025] Supports [Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection](https://arxiv.org/abs/2501.03775)
-We have added the config for our latest work, Strip-R-CNN [arxiv](https://arxiv.org/abs/2501.03775). In this paper, we focus on addressing the challenges of high aspect ratio objects in remote sensing, an issue often overlooked by others. Unlike recent remote sensing object detectors that leverage large-kernel convolutions with square shapes, our Strip R-CNN takes advantage of sequential orthogonal large strip convolutions to capture spatial information. In addition, we enhance the localization capability of remote-sensing object detectors by decoupling the detection heads and equipping the localization head with strip convolutions to better localize the target objects.
+## Update[8/1/2025] Supports [Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection](https://arxiv.org/abs/2501.03775) [github](https://github.com/YXB-NKU/Strip-R-CNN)
+We have added the config for our latest work, Strip-R-CNN [arxiv](https://arxiv.org/abs/2501.03775). 
 
 ##
 
