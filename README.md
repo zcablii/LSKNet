@@ -13,6 +13,10 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/change-detection-on-s2looking)](https://paperswithcode.com/sota/change-detection-on-s2looking?p=lsknet-a-foundation-lightweight-backbone-for)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/change-detection-on-levir-cd)](https://paperswithcode.com/sota/change-detection-on-levir-cd?p=lsknet-a-foundation-lightweight-backbone-for)
 
+---
+## Jittor implementation at [here](https://github.com/NK-JittorCV/nk-remote) ##
+---
+
 ## Update[8/1/2025] Supports [Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection](https://arxiv.org/abs/2501.03775)
 We have added the config for our latest work, Strip-R-CNN [arxiv](https://arxiv.org/abs/2501.03775). In this paper, we focus on addressing the challenges of high aspect ratio objects in remote sensing, an issue often overlooked by others. Unlike recent remote sensing object detectors that leverage large-kernel convolutions with square shapes, our Strip R-CNN takes advantage of sequential orthogonal large strip convolutions to capture spatial information. In addition, we enhance the localization capability of remote-sensing object detectors by decoupling the detection heads and equipping the localization head with strip convolutions to better localize the target objects.
 
