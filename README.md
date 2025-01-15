@@ -17,7 +17,7 @@
 ## Jittor implementation at [github.com/NK-JittorCV/nk-remote](https://github.com/NK-JittorCV/nk-remote) ##
 ---
 
-## Update[8/1/2025] Supports [Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection](https://arxiv.org/abs/2501.03775) [github](https://github.com/YXB-NKU/Strip-R-CNN)
+## Update[8/1/2025] Supports [Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection](https://arxiv.org/abs/2501.03775).  Official code is available at [github](https://github.com/YXB-NKU/Strip-R-CNN)
 We have added the config for our latest work, Strip-R-CNN [arxiv](https://arxiv.org/abs/2501.03775). 
 
 ##
