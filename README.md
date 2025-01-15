@@ -18,7 +18,7 @@
 ---
 
 ## Update[8/1/2025] Supports [Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection](https://arxiv.org/abs/2501.03775).  Official code is available at [github](https://github.com/YXB-NKU/Strip-R-CNN)
-We have added the config for our latest work, Strip-R-CNN [arxiv](https://arxiv.org/abs/2501.03775). 
+We have added the config for our latest work, Strip-R-CNN [arxiv](https://arxiv.org/abs/2501.03775). In this paper ,we have reached 82.75% mAP on DOTA1.0 dataset, setting a new state-of-the-art record.
 
 ##
 
