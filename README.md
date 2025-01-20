@@ -23,6 +23,12 @@ We have added the config for our latest work, Strip-R-CNN [arxiv](https://arxiv.
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/strip-r-cnn-large-strip-convolution-for/object-detection-in-aerial-images-on-dota-1)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-dota-1?p=strip-r-cnn-large-strip-convolution-for)
 ![image](https://github.com/user-attachments/assets/0afd4bbe-c538-4e28-9158-a2ed79379f41)
 
+## Results and models
+
+Imagenet 300-epoch pre-trained Strip R-CNN-T backbone: [Download](https://drive.google.com/uc?export=download&id=1Le4QoQPMUlFEssq7BFXGmaYfHoMktvju)
+
+Imagenet 300-epoch pre-trained Strip R-CNN-S backbone: [Download](https://drive.google.com/uc?export=download&id=1_c2aXANKHl0cIBb370LNIkCyDmQpA3_o)
+
 ##
 
 ## This repository is the official implementation of IJCV (accepted in 2024) "LSKNet: A Foundation Lightweight Backbone for Remote Sensing" at: [IJCV](https://link.springer.com/article/10.1007/s11263-024-02247-9?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20241007&utm_content=10.1007/s11263-024-02247-9) or [arxiv](https://arxiv.org/abs/2403.11735)
@@ -143,6 +149,14 @@ If you use this toolbox or benchmark in your research, please cite this project.
     year      = {2023},
     pages     = {16794-16805}
 }
+
+@article{yuan2025strip,
+  title={Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection},
+  author={Yuan, Xinbin and Zheng, ZhaoHui and Li, Yuxuan and Liu, Xialei and Liu, Li and Li, Xiang and Hou, Qibin and Cheng, Ming-Ming},
+  journal={arXiv preprint arXiv:2501.03775},
+  year={2025}
+}
+
 ```
 
 ## Star History
