@@ -1,18 +1,6 @@
 
 ![lsk_arch](docs/lsk.png)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/strip-r-cnn-large-strip-convolution-for/oriented-object-detection-on-dota-1-5)](https://paperswithcode.com/sota/oriented-object-detection-on-dota-1-5?p=strip-r-cnn-large-strip-convolution-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/strip-r-cnn-large-strip-convolution-for/object-detection-in-aerial-images-on-dota-1)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-dota-1?p=strip-r-cnn-large-strip-convolution-for)
-[![PWC](http://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/object-detection-in-aerial-images-on-dota-1)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-dota-1?p=lsknet-a-foundation-lightweight-backbone-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/large-selective-kernel-network-for-remote/oriented-object-detection-on-dota-1-0)](https://paperswithcode.com/sota/oriented-object-detection-on-dota-1-0?p=large-selective-kernel-network-for-remote)
-[![PWC](http://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/large-selective-kernel-network-for-remote/object-detection-in-aerial-images-on-hrsc2016)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-hrsc2016?p=large-selective-kernel-network-for-remote)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/semantic-segmentation-on-uavid)](https://paperswithcode.com/sota/semantic-segmentation-on-uavid?p=lsknet-a-foundation-lightweight-backbone-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/semantic-segmentation-on-isprs-vaihingen)](https://paperswithcode.com/sota/semantic-segmentation-on-isprs-vaihingen?p=lsknet-a-foundation-lightweight-backbone-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/semantic-segmentation-on-isprs-potsdam)](https://paperswithcode.com/sota/semantic-segmentation-on-isprs-potsdam?p=lsknet-a-foundation-lightweight-backbone-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/large-selective-kernel-network-for-remote/semantic-segmentation-on-loveda)](https://paperswithcode.com/sota/semantic-segmentation-on-loveda?p=large-selective-kernel-network-for-remote)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/change-detection-on-s2looking)](https://paperswithcode.com/sota/change-detection-on-s2looking?p=lsknet-a-foundation-lightweight-backbone-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/change-detection-on-levir-cd)](https://paperswithcode.com/sota/change-detection-on-levir-cd?p=lsknet-a-foundation-lightweight-backbone-for)
-
 ---
 ## Jittor implementation at [github.com/NK-JittorCV/nk-remote](https://github.com/NK-JittorCV/nk-remote) ##
 ---
@@ -20,7 +8,6 @@
 ## Update[8/1/2025] Supports [Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection](https://arxiv.org/abs/2501.03775).  Official code is available at [YXB-NKU/Strip-R-CNN](https://github.com/YXB-NKU/Strip-R-CNN)
 We have added the config for our latest work, Strip-R-CNN [arxiv](https://arxiv.org/abs/2501.03775). In this paper ,we have reached 82.75% mAP on DOTA1.0 dataset, setting a new state-of-the-art record.
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/strip-r-cnn-large-strip-convolution-for/object-detection-in-aerial-images-on-dota-1)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-dota-1?p=strip-r-cnn-large-strip-convolution-for)
 ![image](https://github.com/user-attachments/assets/0afd4bbe-c538-4e28-9158-a2ed79379f41)
 
 
@@ -46,9 +33,9 @@ LSKNet backbone code is placed under mmrotate/models/backbones/, and the train/t
 
 ## Results and models
 
-Imagenet 300-epoch pre-trained LSKNet-T backbone: [Download](https://download.openmmlab.com/mmrotate/v1.0/lsknet/backbones/lsk_t_backbone-2ef8a593.pth)
+Imagenet 300-epoch pre-trained LSKNet-T backbone: [Download](https://huggingface.co/GreatBird/LSKNet/resolve/main/lsk_t_backbone.pth.tar?download=true)
 
-Imagenet 300-epoch pre-trained LSKNet-S backbone: [Download](https://download.openmmlab.com/mmrotate/v1.0/lsknet/backbones/lsk_s_backbone-e9d2e551.pth)
+Imagenet 300-epoch pre-trained LSKNet-S backbone: [Download](https://huggingface.co/GreatBird/LSKNet/resolve/main/lsk_s_backbone.pth.tar?download=true)
 
 Imagenet 300-epoch pre-trained Strip R-CNN-T backbone: [Download](https://drive.google.com/uc?export=download&id=1Le4QoQPMUlFEssq7BFXGmaYfHoMktvju)
 
