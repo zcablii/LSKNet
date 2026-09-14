@@ -8,6 +8,11 @@
 ## Update[8/1/2025] Supports [Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection](https://arxiv.org/abs/2501.03775).  Official code is available at [YXB-NKU/Strip-R-CNN](https://github.com/YXB-NKU/Strip-R-CNN)
 We have added the config for our latest work, Strip-R-CNN [arxiv](https://arxiv.org/abs/2501.03775). In this paper ,we have reached 82.75% mAP on DOTA1.0 dataset, setting a new state-of-the-art record.
 
+
+[![Papers with Code: SOTA on DOTA v1.0](https://paperswithcode.co/api/v1/papers/2303.09030/leaderboard-badge.svg?eval=16936&live=1)](https://paperswithcode.co/api/v1/papers/2303.09030/leaderboard-badge-link?eval=16936)
+[![Papers with Code: SOTA on HRSC2016](https://paperswithcode.co/api/v1/papers/2303.09030/leaderboard-badge.svg?eval=16938&live=1)](https://paperswithcode.co/api/v1/papers/2303.09030/leaderboard-badge-link?eval=16938)
+[![Papers with Code: #2 on FAIR1M v1.0](https://paperswithcode.co/api/v1/papers/2303.09030/leaderboard-badge.svg?eval=16937&live=1)](https://paperswithcode.co/api/v1/papers/2303.09030/leaderboard-badge-link?eval=16937)
+
 ![image](https://github.com/user-attachments/assets/0afd4bbe-c538-4e28-9158-a2ed79379f41)
 
 
